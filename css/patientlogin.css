@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #097967, #00ffd6);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+
+.row {
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+
+
+@media (min-width: 450px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 1000px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
